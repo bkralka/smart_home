@@ -15,7 +15,6 @@ Projekt **smart_home** został stworzony na mikrokontrolerze ESP32 z wykorzystan
   - wilgotności  
   - natężenia światła  
 - **Sterowanie lampką RGB** przez przeglądarkę (interfejs webowy ESP32)
-- Prosta konfiguracja i uruchomienie
 
 ---
 
