@@ -23,7 +23,6 @@ Projekt **smart_home** został stworzony na mikrokontrolerze ESP32 z wykorzystan
 - **ESP32**
 - **C/C++ (Arduino)**
 - **HTML/CSS (web interface)**
-- **Git, GitHub**
 
 ---
 
