@@ -1,40 +1,40 @@
-# Smart Home ESP32
+# 🏠 Smart Home ESP32
 
-Projekt **smart_home** został stworzony na mikrokontrolerze ESP32 z wykorzystaniem następujących komponentów:
+The **Smart Home** project was built on the **ESP32 microcontroller** using the following components:
 
-- **ALS-PT19** – czujnik natężenia światła,
-- **DHT11** – czujnik temperatury i wilgotności,
-- **RGB Induino** – dioda RGB do wizualizacji i sterowania oświetleniem.
-
----
-
-## 📲 Funkcjonalności
-
-- **Wyświetlanie na stronie www** aktualnych wartości:  
-  - temperatury  
-  - wilgotności  
-  - natężenia światła  
-- **Sterowanie lampką RGB** przez przeglądarkę (interfejs webowy ESP32)
+- **ALS-PT19** – light intensity sensor  
+- **DHT11** – temperature and humidity sensor  
+- **RGB Induino LED** – RGB diode used for lighting visualization and control  
 
 ---
 
-## 🔧 Wykorzystane technologie
+## 📲 Features
 
-- **ESP32**
-- **C/C++ (Arduino)**
-- **HTML/CSS (web interface)**
-
----
-
-## ⚡️ Szybki start
-
-1. Wgraj plik `smart_home.ino` na płytkę ESP32 (Arduino IDE / PlatformIO).
-2. Podłącz czujniki zgodnie ze schematem (patrz kod).
-3. Połącz się z siecią WiFi skonfigurowaną w kodzie.
-4. Otwórz stronę www pod adresem IP ESP32, aby zobaczyć wartości z czujników i sterować lampką RGB.
+- **Displays real-time sensor data** on a web page:  
+  - Temperature  
+  - Humidity  
+  - Light intensity  
+- **RGB lamp control** directly from a web browser (via ESP32 web interface)
 
 ---
 
-## ✍️ Autorzy
+## 🔧 Technologies Used
 
-Bartosz Kralka, Hubert Kraj
+- **ESP32**  
+- **C/C++ (Arduino framework)**  
+- **HTML/CSS (web interface)**  
+
+---
+
+## ⚡️ Quick Start
+
+1. Upload the `smart_home.ino` file to your ESP32 board (using Arduino IDE or PlatformIO).  
+2. Connect the sensors according to the wiring in the code.  
+3. Connect the ESP32 to the WiFi network configured in the code.  
+4. Open the ESP32’s IP address in your web browser to view sensor readings and control the RGB lamp.  
+
+---
+
+## ✍️ Authors
+
+**Bartosz Kralka**, **Hubert Kraj**
